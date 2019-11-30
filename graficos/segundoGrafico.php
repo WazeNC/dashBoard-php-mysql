@@ -8,7 +8,7 @@
             var data = google.visualization.arrayToDataTable([
                 ['Cidade', 'População',  { role: 'style' }],
                 <?php
-                include 'conexao.php';
+                include 'conexao/conexao.php';
                 $sql = 'SELECT * FROM cidades';
                 $buscar = mysqli_query($conexao, $sql);
 
