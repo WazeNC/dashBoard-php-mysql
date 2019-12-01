@@ -35,9 +35,9 @@
     </script>
     <script type="text/javascript">
         google.charts.load('current', {'packages':['corechart']});
-        google.charts.setOnLoadCallback(drawChart);
+        google.charts.setOnLoadCallback(drawChart2);
 
-        function drawChart() {
+        function drawChart2() {
 
             var data = google.visualization.arrayToDataTable([
                 ['Vendas', 'Quantidade'],
@@ -64,6 +64,13 @@
             chart.draw(data, options);
         }
     </script>
+    <style>
+        .sombra {
+            -webkit-box-shadow: 7px 9px 23px 0px rgba(191,189,191,1);
+            -moz-box-shadow: 7px 9px 23px 0px rgba(191,189,191,1);
+            box-shadow: 7px 9px 23px 0px rgba(191,189,191,1);
+        }
+    </style>
 </head>
 <body>
 
@@ -71,11 +78,11 @@
     <div class="row">
         <div class="col-md-8">
             <h4>Gráfico de Clientes</h4>
-            <div id="curve_chart" ></div>
+            <div id="curve_chart" class="sombra"></div>
         </div>
         <div class="col-md-4">
             <h4>Quantidade de Venda</h4>
-            <div id="piechart" style="width: 288px;"></div>
+            <div id="piechart" style="width: 288px;" class="sombra"></div>
         </div>
     </div>
 
