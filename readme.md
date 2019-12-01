@@ -5,5 +5,5 @@
 * Boostrap 4
 
 <div class="container-fluid" style="text-align: center">
-<img src="dashboard.png">
+<img src="dash.png">
 </div>
