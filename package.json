@@ -1,0 +1,16 @@
+{
+  "name": "Dashboard wit PHP, MySQL and Bootstrap 4",
+  "version": "1.0.0",
+  "description": "Dashboard",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "William Koller",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.9.11",
+    "gulp": "^3.9.0",
+    "gulp-connect-php": "0.0.5"
+  }
+}
