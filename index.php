@@ -105,8 +105,8 @@
                             include 'cadastroVendas.php';
                             break;
                         default:
-                            include "painel.php";
-                            include "painel2.php";
+                            include "painel-card.php";
+                            include "painel-graphic.php";
                             break;
                     }
                 }
