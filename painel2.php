@@ -43,7 +43,7 @@
                 ['Vendas', 'Quantidade'],
                 <?php
                 include "conexao/conexao.php";
-                $sql = "SELECT * FROM vendas";
+                $sql = "SELECT * FROM vendas ORDER BY id_venda ASC";
                 $buscar = mysqli_query($conexao, $sql);
 
                 while($dados = mysqli_fetch_array($buscar)){
