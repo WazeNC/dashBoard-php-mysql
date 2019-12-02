@@ -9,4 +9,5 @@ $sql = "INSERT INTO vendas (mes, quantidade, valor)
         VALUES ('$mes', $quantidade, $valor)";
 $inserir = mysqli_query($conexao, $sql);
 
+header('Location: index.php?pagina=vendas');
 ?>
