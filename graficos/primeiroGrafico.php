@@ -11,6 +11,7 @@
                 ['Cidade', 'População',  { role: 'annotation' }],
                 <?php
                     include 'conexao/conexao.php';
+                    include 'connection.php';
                     $sql = 'SELECT * FROM cidades';
                     $buscar = mysqli_query($conexao, $sql);
 
