@@ -11,6 +11,7 @@
 
                 <?php
                 include "conexao/conexao.php";
+                include 'connection.php';
                 $sql = "SELECT * FROM clientes";
                 $buscar = mysqli_query($conexao, $sql);
 
@@ -43,6 +44,7 @@
                 ['Vendas', 'Quantidade'],
                 <?php
                 include "conexao/conexao.php";
+                include 'connection.php';
                 $sql = "SELECT * FROM vendas ORDER BY id_venda ASC";
                 $buscar = mysqli_query($conexao, $sql);
 

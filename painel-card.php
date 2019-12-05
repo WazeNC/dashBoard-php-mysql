@@ -24,6 +24,7 @@
                     <h5 class="card-title" style="text-align: center; font-size: 40px;">
                         <?php
                         include "conexao/conexao.php";
+                        include 'connection.php';
                         $sql = "SELECT SUM(quantidade) AS total FROM clientes";
                         $consulta = mysqli_query($conexao, $sql);
                         $dados = mysqli_fetch_array($consulta);
@@ -42,6 +43,7 @@
                     <h5 class="card-title" style="text-align: center; font-size: 40px;">
                         <?php
                         include "conexao/conexao.php";
+                        include "connection.php";
                         $sql = "SELECT SUM(valor) AS total_venda FROM vendas";
                         $consulta = mysqli_query($conexao, $sql);
                         $dados = mysqli_fetch_array($consulta);
@@ -60,6 +62,7 @@
                     <h5 class="card-title" style="text-align: center; font-size: 40px;">
                         <?php
                         include "conexao/conexao.php";
+                        include 'connection.php';
                         $sql = "SELECT SUM(quantidade) AS total_quantidade FROM vendas";
                         $consulta = mysqli_query($conexao, $sql);
                         $dados = mysqli_fetch_array($consulta);
