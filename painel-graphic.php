@@ -12,8 +12,8 @@
                 <?php
                 include "conexao/conexao.php";
                 include 'connection.php';
-                require __DIR__ . 'vendor/autoload.php';
-                $sql = "SELECT * FROM clientes";
+                require_once 'vendor/autoload.php';
+                $sql = "SELECT * FROM heroku_c8a87aadafff651.clientes";
                 $buscar = mysqli_query($conexao, $sql);
 
                 while($dados = mysqli_fetch_array($buscar)){
@@ -46,9 +46,7 @@
                 <?php
                 include "conexao/conexao.php";
                 include 'connection.php';
-                require __DIR__ . 'vendor/autoload.php';
-
-                $sql = "SELECT * FROM vendas ORDER BY id_venda ASC";
+                $sql = "SELECT * FROM heroku_c8a87aadafff651.vendas ORDER BY id_venda ASC";
                 $buscar = mysqli_query($conexao, $sql);
 
                 while($dados = mysqli_fetch_array($buscar)){

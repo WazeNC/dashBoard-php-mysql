@@ -1,14 +1,14 @@
 <?php
 include "conexao/conexao.php";
 include "connection.php";
-require __DIR__ . 'vendor/autoload.php';
+require_once 'vendor/autoload.php';
 
 
 $mes = $_POST['mes'];
 $quantidade = $_POST['quantidade'];
 $valor = $_POST['valor'];
 
-$sql = "INSERT INTO vendas (mes, quantidade, valor)
+$sql = "INSERT INTO heroku_c8a87aadafff651.vendas (mes, quantidade, valor)
         VALUES ('$mes', $quantidade, $valor)";
 $inserir = mysqli_query($conexao, $sql);
 
