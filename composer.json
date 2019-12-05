@@ -1,0 +1,7 @@
+{
+  "name": "William Koller",
+  "description": "Dashboard with PHP7",
+  "require": {
+    "php": "^7.2.0"
+  }
+}

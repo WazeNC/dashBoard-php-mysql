@@ -2,7 +2,7 @@
   "name": "dashboard",
   "version": "1.0.0",
   "description": "Dashboard",
-  "main": "gulpfile.js",
+  "main": "gulpFile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,7 +10,7 @@
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.9.11",
-    "gulp": "^4.0.2",
+    "gulp": "^3.9.0",
     "gulp-connect-php": "0.0.5"
   }
 }
