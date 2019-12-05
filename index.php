@@ -1,3 +1,6 @@
+<?php
+require_once 'connection.php';
+?>
 <!DOCTYPE html>
 <!-- saved from url=(0057)https://getbootstrap.com.br/docs/4.1/examples/dashboard/# -->
 <html lang="en">
