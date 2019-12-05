@@ -10,6 +10,8 @@
                 <?php
                 include 'conexao/conexao.php';
                 include 'connection.php';
+                require_once 'vendor/autoload.php';
+
                 $sql = 'SELECT * FROM cidades';
                 $buscar = mysqli_query($conexao, $sql);
 

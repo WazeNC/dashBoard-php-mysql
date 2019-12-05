@@ -17,11 +17,15 @@
             <div class="col-md-6">
                 <?php
                 include 'terceiroGrafico.php';
+                require_once 'vendor/autoload.php';
+
 
                 ?>
             </div>
             <div class=col-md-6">
                 <?php include 'segundoGrafico.php';
+                require_once 'vendor/autoload.php';
+
 
                 ?>
             </div>
@@ -30,7 +34,9 @@
     <div class="container">
         <div class="col-md-12">
             <div style="margin-top: -120px;">
-                <?php include 'primeiroGrafico.php';?>
+                <?php include 'primeiroGrafico.php';
+                require_once 'vendor/autoload.php';
+                ?>
 
             </div>
         </div>

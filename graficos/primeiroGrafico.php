@@ -12,7 +12,9 @@
                 <?php
                     include 'conexao/conexao.php';
                     include 'connection.php';
-                    $sql = 'SELECT * FROM cidades';
+                    require_once 'vendor/autoload.php';
+
+                $sql = 'SELECT * FROM cidades';
                     $buscar = mysqli_query($conexao, $sql);
 
                     while($data = mysqli_fetch_array($buscar)){

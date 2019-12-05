@@ -1,6 +1,8 @@
 <?php
 include "conexao/conexao.php";
 include "connection.php";
+require_once 'vendor/autoload.php';
+
 
 $mes = $_POST['mes'];
 $quantidade = $_POST['quantidade'];
