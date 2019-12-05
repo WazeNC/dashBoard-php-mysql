@@ -1,6 +1,26 @@
 {
-  "name": "William Koller",
+  "name": "williamkoller/dashboard",
   "description": "Dashboard with PHP7",
+  "type": "project",
+  "authors": [
+    {
+      "name": "William Koller",
+      "email": "wkoller25@gmail.com",
+      "role": "Developer"
+
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor/"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
   "require": {
     "php": "^7.2.0"
   }
