@@ -1,6 +1,5 @@
 <?php
 include "conexao/conexao.php";
-include 'connection.php';
 require_once 'vendor/autoload.php';
 
 

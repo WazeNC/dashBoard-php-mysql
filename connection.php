@@ -4,7 +4,7 @@ $cleardb_url      = parse_url(getenv("CLEARDB_DATABASE_URL"));
 $cleardb_server   = $cleardb_url["us-cdbr-iron-east-05.cleardb.net"];
 $cleardb_username = $cleardb_url["b2a4fadd12b347"];
 $cleardb_password = $cleardb_url["d6ea0403"];
-$cleardb_db       = substr($cleardb_url["path"],1);
+$cleardb_db       = substr($cleardb_url["heroku_c8a87aadafff651"],1);
 
 
 $active_group = 'default';

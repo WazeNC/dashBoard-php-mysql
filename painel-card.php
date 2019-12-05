@@ -24,7 +24,6 @@
                     <h5 class="card-title" style="text-align: center; font-size: 40px;">
                         <?php
                         include "conexao/conexao.php";
-                        include 'connection.php';
                         require_once 'vendor/autoload.php';
 
                         $sql = "SELECT SUM(quantidade) AS total FROM clientes";
