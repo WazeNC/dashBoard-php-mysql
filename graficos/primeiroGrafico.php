@@ -14,7 +14,7 @@
                     include 'connection.php';
                     require_once 'vendor/autoload.php';
 
-                $sql = 'SELECT * FROM heroku_c8a87aadafff651.cidades';
+                $sql = 'SELECT * FROM cidades';
                     $buscar = mysqli_query($conexao, $sql);
 
                     while($data = mysqli_fetch_array($buscar)){
