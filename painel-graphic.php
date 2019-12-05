@@ -12,7 +12,7 @@
                 <?php
                 include "conexao/conexao.php";
                 include 'connection.php';
-                require_once 'vendor/autoload.php';
+                require __DIR__ . 'vendor/autoload.php';
                 $sql = "SELECT * FROM clientes";
                 $buscar = mysqli_query($conexao, $sql);
 
@@ -46,7 +46,7 @@
                 <?php
                 include "conexao/conexao.php";
                 include 'connection.php';
-                require_once 'vendor/autoload.php';
+                require __DIR__ . 'vendor/autoload.php';
 
                 $sql = "SELECT * FROM vendas ORDER BY id_venda ASC";
                 $buscar = mysqli_query($conexao, $sql);

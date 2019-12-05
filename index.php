@@ -1,6 +1,6 @@
 <?php
 require_once 'connection.php';
-require_once 'vendor/autoload.php'
+require __DIR__ . 'vendor/autoload.php';
 ?>
 <!DOCTYPE html>
 <!-- saved from url=(0057)https://getbootstrap.com.br/docs/4.1/examples/dashboard/# -->

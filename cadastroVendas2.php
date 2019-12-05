@@ -1,7 +1,7 @@
 <?php
 include "conexao/conexao.php";
 include "connection.php";
-require_once 'vendor/autoload.php';
+require __DIR__ . 'vendor/autoload.php';
 
 
 $mes = $_POST['mes'];

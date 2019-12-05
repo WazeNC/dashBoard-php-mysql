@@ -25,7 +25,7 @@
                         <?php
                         include "conexao/conexao.php";
                         include 'connection.php';
-                        require_once 'vendor/autoload.php';
+                        require __DIR__ . 'vendor/autoload.php';
 
                         $sql = "SELECT SUM(quantidade) AS total FROM clientes";
                         $consulta = mysqli_query($conexao, $sql);
@@ -46,7 +46,7 @@
                         <?php
                         include "conexao/conexao.php";
                         include "connection.php";
-                        require_once 'vendor/autoload.php';
+                        require __DIR__ . 'vendor/autoload.php';
 
                         $sql = "SELECT SUM(valor) AS total_venda FROM vendas";
                         $consulta = mysqli_query($conexao, $sql);
@@ -67,7 +67,7 @@
                         <?php
                         include "conexao/conexao.php";
                         include 'connection.php';
-                        require_once 'vendor/autoload.php';
+                        require __DIR__ . 'vendor/autoload.php';
 
                         $sql = "SELECT SUM(quantidade) AS total_quantidade FROM vendas";
                         $consulta = mysqli_query($conexao, $sql);
