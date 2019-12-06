@@ -51,7 +51,7 @@
                         $consulta = mysqli_query($conexao, $sql);
                         $dados = mysqli_fetch_array($consulta);
                         $valor = $dados['total_venda'];
-                        echo 'R$ ' . number_format($valor, 2,'.', '');
+                        echo 'R$ ' . number_format($valor, 2,',', '.');
                         ?>
                         <span style="font-size: 10px;"> / BRL</span>
                     </h5>
